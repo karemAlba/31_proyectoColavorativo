@@ -1,0 +1,17 @@
+.bg-gris{
+	background-color: #B0B0B0;
+	margin:2%;	
+	padding: 3%;
+	text-align: center;
+}
+.text-g{
+	color: gray;
+}
+.borde{
+	border: solid white;
+	box-shadow: 0 4px 2px  0 black;
+}
+.img-thumbnail{
+	margin-bottom: 2%;
+	height: 175px;
+}
