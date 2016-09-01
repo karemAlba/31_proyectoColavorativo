@@ -3,15 +3,79 @@
 	margin:2%;	
 	padding: 3%;
 	text-align: center;
+
 }
 .text-g{
 	color: gray;
 }
+.inline{
+	display: inline-block;
+	margin-left: 10%;
+}
+.imginline{
+	display: inline-block;
+}
+
 .borde{
 	border: solid white;
 	box-shadow: 0 4px 2px  0 black;
+	display:inline-block;
 }
 .img-thumbnail{
 	margin-bottom: 2%;
-	height: 175px;
+	overflow: auto;
+	box-shadow: 2px 2px 5px;	
+}
+.img-thumbnail:hover{
+	 transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg)
+}
+.menu1{
+	background:#EE1F22;
+	color: white;
+	background-size: cover;
+	padding: 1%;
+	text-align:center;
+	margin-bottom: 2%;
+}
+.menu1 a{
+	text-decoration:none;
+	color: white;
+	margin-left: 5%;	
+}
+.menu1 a:hover{
+	background-color:#570A0A;
+	border-radius: 19%;
+}
+.menu1 a:active{
+	background-color:#5B0A0C;
+}
+.gris{
+	background-color: #A1A1A1;
+	overflow: auto;
+	margin-bottom: 1%;
+	margin-left: .5%
+	padding:2%;
+	background-size: cover;
+}
+.imagen{
+	border:solid white 2px;
+	margin-bottom: 1%;
+	display: inline-block;	
+}
+.textoti{
+	font-size: 130%;
+	color: grey;
+	margin-bottom: 2%;
+}
+h1{
+	font-weight: bold;
+
+}
+button{
+	margin-bottom: 2%;
+	margin-top: 2%;
 }
